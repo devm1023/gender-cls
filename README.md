@@ -21,7 +21,8 @@ Training, Validation and Test datasets were provided. Predictions were to be don
 * Use stratified sampling for cross validation
 * Use PCA and SelectKBest together to find the best features, stepping at every feature instead of having bigger steps
 * Perform grid search to tune hyper parameters better
-* Can be ensembled with other types of classifiers like SVM, ANN and use voting to improve prediction accuracy
+* Use Model Stacking with other types of classifiers like SVM, ANN, etc.
+* Consider Autoencoders for feature extraction and dimensionality reduction
 
 ### Quick info about SIFT
 SIFT stands for Scale-invariant feature transform. SIFT is used to encode images into vectors. This representation is different from raw flattened out pixels that are widely used. The main shortcoming of the raw pixel representation of images is that, the pixel data doesn't preserve/represent similarities across images. For instance, even the slight change in the image's aspect ratio or angle of view changes the pixels drastically, even when the image is same.
